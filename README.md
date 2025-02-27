@@ -66,8 +66,8 @@ cd rag-chatbot
   ```bash
   streamlit run app.py
   ```
- Open your browser at http://localhost:8501.
- Upload a PDF, select a persona and model, adjust the reference slider, and ask questions via text or audio (click "🎤").
+ - Open your browser at http://localhost:8501.
+ - Upload a PDF, select a persona and model, adjust the reference slider, and ask questions via text or audio (click "🎤").
 
 ### Dependencies
  See requirements.txt for a full list of Python packages.
