@@ -1,0 +1,12 @@
+streamlit==1.42.2
+speechrecognition==3.14.1
+pyaudio==0.2.14
+langchain==0.3.19
+langchain-community==0.3.18
+langchain-core=0.3.37
+langchain-text-splitters=0.3.6
+sentence-transformers==2.5.0
+faiss-cpu==1.8.0
+ollama==0.4.7
+python-dotenv==1.0.1
+pypdf==5.3.0
