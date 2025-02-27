@@ -37,29 +37,34 @@ cd rag-chatbot
   ```
 
 - Install dependencies:
-  ```pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
   ```
 
 ### Set Up Environment Variables
 - Create a .env file in the root directory:
-  ```OLLAMA_HOST=http://localhost:11434
-    CHUNK_SIZE=500
-    CHUNK_OVERLAP=100
+  ```bash
+  OLLAMA_HOST=http://localhost:11434
+  CHUNK_SIZE=500
+  CHUNK_OVERLAP=100
   ```
 
 ### Download LLM Models
 - Ensure Ollama is installed, then pull models:
-  ```ollama pull qwen2.5:0.5b-instruct-q4_0
-    ollama pull llama3.2:1b-instruct-q4_K_M
+  ```bash
+  ollama pull qwen2.5:0.5b-instruct-q4_0
+  ollama pull llama3.2:1b-instruct-q4_K_M
   ```
 
 ### Running the App
 - Start Ollama Server (in a separate terminal):
-  ```ollama serve
+  ```bash
+  ollama serve
   ```
 
 - Launch the App:
-  ```streamlit run app.py
+  ```bash
+  streamlit run app.py
   ```
  Open your browser at http://localhost:8501.
  Upload a PDF, select a persona and model, adjust the reference slider, and ask questions via text or audio (click "🎤").
